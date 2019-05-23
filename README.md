@@ -4,10 +4,14 @@ Build librealsense 2.0 library on the NVIDIA Jetson TX2 Developer Kit. Intel Rea
 This is for version L4T 32.1 (JetPack 4.2), librealsense v2.22.0.
 
 Reference link:
-https://github.com/alexrashed/buildJetsonTX2Kernel/tree/Jetpack_4
-https://www.jetsonhacks.com/2019/01/21/intel-realsense-d435i-on-nvidia-jetson-agx-xavier/
-https://github.com/jetsonhacks/buildLibrealsense2Xavier
-https://github.com/IntelRealSense/librealsense
+
+  https://github.com/alexrashed/buildJetsonTX2Kernel/tree/Jetpack_4
+  
+  https://www.jetsonhacks.com/2019/01/21/intel-realsense-d435i-on-nvidia-jetson-agx-xavier/
+  
+  https://github.com/jetsonhacks/buildLibrealsense2Xavier
+  
+  https://github.com/IntelRealSense/librealsense
 
 May 2019
 
