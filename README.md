@@ -3,6 +3,12 @@ Build librealsense 2.0 library on the NVIDIA Jetson TX2 Developer Kit. Intel Rea
 
 This is for version L4T 32.1 (JetPack 4.2), librealsense v2.22.0.
 
+Reference link:
+https://github.com/alexrashed/buildJetsonTX2Kernel/tree/Jetpack_4
+https://www.jetsonhacks.com/2019/01/21/intel-realsense-d435i-on-nvidia-jetson-agx-xavier/
+https://github.com/jetsonhacks/buildLibrealsense2Xavier
+https://github.com/IntelRealSense/librealsense
+
 May 2019
 
 In order for librealsense to work properly, the kernel Image must be rebuilt and patches applied to the UVC module and some other support modules. In addition, for support of the extra features of the D435i camera such as the IMU, extra modules must be built.
@@ -14,7 +20,8 @@ In order to build and install the patched kernel Image and modules:
 $ ./buildPatchedKernel.sh
 
 On the stock Jetson TX2 install, there is no zImage in the boot directory.So we just copy the Image file over.Note that if you are compiling on an external device, like a SSD, you should probably copy this over to the internal eMMC if that is where the Jetson boots.
-==NOTE==:Make sure where the Image file on TX2 turely is,and cover to it by Image file under image directory.
+
+NOTE:Make sure where the Image file on TX2 turely is,and cover to it by Image file under image directory.
 
 $ sudo cp ./image/Image /boot
 
