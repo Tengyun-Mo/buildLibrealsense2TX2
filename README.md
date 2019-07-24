@@ -17,7 +17,7 @@ May 2019
 
 In order for librealsense to work properly, the kernel Image must be rebuilt and patches applied to the UVC module and some other support modules. In addition, for support of the extra features of the D435i camera such as the IMU, extra modules must be built.
 
-Because the TX2 with flashed Jetpack4.2 run kernel version 4.9 and librealsense does not support that kernel revision directly, custom patches have been constructed based on the patches in librealsense. These are located in the 'patches' directory.
+Because the TX2 with flashed Jetpack4.2 run kernel version 4.9 and librealsense does not support that kernel version directly, custom patches have been constructed based on the patches in librealsense. These are located in the 'patches' directory.
 
 In order to build and install the patched kernel Image and modules:
 
